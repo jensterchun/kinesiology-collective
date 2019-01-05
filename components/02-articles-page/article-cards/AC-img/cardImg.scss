@@ -1,0 +1,24 @@
+@import '../../../../config/variable.scss';
+
+@media (min-width: 768px){
+    .articles-page-img {
+      grid-area: img;
+      display: flex;
+      height: 100%;
+      align-items: start;
+      justify-content: start;
+      align-content: start;
+    }
+}
+
+@media (max-width: 767px) {
+
+  .articles-page-img {
+    grid-area: img;
+    display: flex;
+    height: 100%;
+    align-items: start;
+    justify-content: start;
+    align-content: start;
+  }
+}

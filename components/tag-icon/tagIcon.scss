@@ -1,0 +1,14 @@
+@import '../../config/variable.scss';
+
+.tag-icon-gray {
+    padding: .2em .2em 0 0;
+    fill: $darker-fill-color;
+}
+
+.tag-icon-link {
+    padding: .6em;
+}
+
+.tag-icon-link:hover .tag-icon-gray {
+    fill: $brand-color;
+}

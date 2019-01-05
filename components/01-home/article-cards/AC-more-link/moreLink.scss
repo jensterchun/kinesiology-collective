@@ -1,0 +1,15 @@
+@import '../../../../config/variable.scss';
+
+@media (min-width: 768px) {
+    .article-card-more-link-container {
+        padding: .9em .5em;
+        font-size: $m-small;
+    }
+}
+
+@media (max-width: 767px) {
+    .article-card-more-link-container {
+        padding: .6em 2.5% .9em;
+        font-size: $m-small;
+    }
+}

@@ -1,0 +1,45 @@
+@import '../../../../config/variable.scss';
+
+.featured-articles-page-img-container {
+    position: relative;
+}
+
+.img-time-stamp {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: $fill-color;
+    background: rgba(0,0,0,.4);
+    padding: .35em .7em;
+    font-size: $m-smallest;
+}
+
+@media (min-width: 768px) {
+    .articles-page-featured-card-tags {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: $fill-color;
+        fill: $fill-color;
+        background: rgba(0,0,0,.4);
+        padding: .35em .7em;
+        font-size: .78em;
+    }
+
+    .articles-page-featured-card-tags a {
+        color: $fill-color;
+    }
+
+    .articles-page-featured-card-tags a:hover {
+        color: $brand-color;
+    }
+
+    .articles-page-featured-card-tags svg {
+        fill: $fill-color;
+        padding: .05em;
+    }
+    // figure out how to do the hover
+    .articles-page-featured-card-tags span {
+        display: none;
+    }
+}

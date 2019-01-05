@@ -1,0 +1,21 @@
+@import '../../../../config/variable.scss';
+
+@media (min-width: 768px) {
+    .articles-page-card-title {
+        grid-area: title;
+        font-size: $m-title;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+    .articles-page-card-title {
+      grid-area: title;
+      font-size: $m-title;
+    }
+}
+
+@media (max-width: 400px) {
+    .articles-page-card-title {
+      font-size: $m-title;
+    }
+}

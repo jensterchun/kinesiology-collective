@@ -1,0 +1,23 @@
+@import '../../../../config/variable.scss';
+
+.articles-page-card-time-author {
+  font-size: $m-smaller;
+}
+
+@media (min-width: 768px) {
+  .articles-page-card-time-author {
+    padding: .3em 0em;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .articles-page-card-time-author {
+    padding: .15em 0em .25em;
+  }
+}
+
+@media (max-width: 400px) {
+  .articles-page-card-time-author {
+    padding-top: .2em;
+  }
+}

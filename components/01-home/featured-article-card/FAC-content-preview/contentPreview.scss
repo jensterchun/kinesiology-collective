@@ -1,0 +1,19 @@
+@import '../../../../config/variable.scss';
+
+@media (min-width: 768px) {
+
+    .featured-article-card-text-block {
+      font-size: $m-small;
+      padding-left: .5em;
+      cursor: text;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .featured-article-card-text-block {
+      font-size: $m-small;
+      padding: 0em 2.5%;
+      cursor: text;
+    }
+}

@@ -1,0 +1,40 @@
+@import '../../config/variable.scss';
+
+.articles-page-more-btn {
+    grid-area: btn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5em 9%;
+}
+
+.articles-page-more-btn button {
+    padding: .7em;
+    font-size: $m-smaller;
+    font-family: $open-font;
+    border: none;
+    background-color: $brand-color;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    transition: all .25s ease-in-out;
+}
+
+.articles-page-more-btn button:hover {
+    color: $brand-color;
+    background-color: $fill-color;
+    -webkit-box-shadow: inset 0px 0px 0px 0.75px rgba(39,141,170,1);
+    -moz-box-shadow: inset 0px 0px 0px 0.75px rgba(39,141,170,1);
+    box-shadow: inset 0px 0px 0px 0.75px rgba(39,141,170,1);
+}
+
+.articles-page-more-btn button:hover svg {
+    fill: $brand-color;
+    height: 12px;
+}
+  
+.white-right-arrow-icon {
+    fill: #ffffff;
+    height: 12px;
+}

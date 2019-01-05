@@ -1,0 +1,84 @@
+@import '../../config/variable.scss';
+
+@media (max-width: 767px) {
+
+    /* Article page formatting */
+    .article-page-wrap {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 4em 1fr auto auto 5em;
+      grid-template-areas:
+        "header"
+        "body"
+        "prev-next"
+        "comment"
+        "footer";
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+    }
+  
+    .article-container {
+      font-family: sans-serif;
+      cursor: default;
+    }
+  
+    .article-date {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: .65em;
+      padding-top: 4em;
+      text-transform: uppercase;
+      color: rgba(51, 51, 51, 0.76);
+    }
+    
+    .mega-header {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .article-title {
+      font-size: 3.5em;
+      margin: .5em;
+      cursor: default;
+    }
+  /* need to rename this? */
+    .article-card-content {
+      font-family: $open-font;
+    }
+  
+    .article-author {
+      padding: 3em 2.5em .3em;
+      font-size: .7em;
+      cursor: default;
+    }
+  
+    .article-tags {
+      padding: 0em 2.5em 3em;
+      font-size: .7em;
+    }
+    
+    .article-content {
+      padding: 0em 1.5em;
+    }
+  
+    .article-paragraph {
+      padding-bottom: 1em;
+      font-family: $open-font;
+    }
+    /* Article's prev/next area */
+    .article-prev-next {
+      grid-area: prev-next;
+      display: flex;
+      justify-content: center;
+      align-content: space-between;
+      width: 100%;
+    }
+    
+    /* Article's Comments */
+    .article-comment-container {
+      grid-area: comment;
+    }
+  }
